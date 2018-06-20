@@ -1,0 +1,5 @@
+- Use ValidatedAmount in the flow so it doesn't need to be used in other componenets
+- Fix the specs
+- Add specs for new methods
+- Put the duplicated Bank::Amount.valid? calls into a helper
+- Fix when transferring larger amount than available and it raises.
